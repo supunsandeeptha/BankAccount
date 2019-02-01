@@ -43,7 +43,7 @@ public class BankAccount {
             System.err.println("You've entered a wrong number " + input);
             System.out.println("Please enter the value again");
         }
-        String username = sc.nextLine();
+        String username = sc.next();
 
         System.out.println("Please enter the account balance");
         double accountBalance = sc.nextDouble();
